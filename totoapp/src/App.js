@@ -5,8 +5,11 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <h1>React to do app</h1>
+      <div className="App">
+        <form id="to-do-form">
+          <input type="text"></input>
+          <button>Add</button>
+        </form>
       </div>
     );
   }
